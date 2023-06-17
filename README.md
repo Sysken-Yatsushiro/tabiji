@@ -1,16 +1,28 @@
-# tabiji
+# Tabiji
 
 ## 環境構築
 
-まず、GitとNode.jsがインストールされたWSL上で、`git clone https://github.com/Sysken-Yatsushiro/tabiji.git`を実行してください。
+1. Windowsユーザーの方は、WSLをインストールしてください。<https://learn.microsoft.com/ja-jp/windows/wsl/install>
 
-すると、あなたが現在いるディレクトリに`tabiji`というディレクトリができます。つまり、このリポジトリがあなたのPC上にクローンされます。
+2. WSLでVSCodeを使えるようにしてください。<https://learn.microsoft.com/ja-jp/windows/wsl/tutorials/wsl-vscode>
 
-`cd tabiji`でそこに移動し、`npm install`を実行してください。すると、このプログラムを動かすためのモジュール類がインストールされていきます。（これをしないとプログラムは動きません）
+3. WSLにNode.jsをインストールしてください。<https://learn.microsoft.com/ja-jp/windows/dev-environment/javascript/nodejs-on-wsl>
 
-それが終わったら、`npm start`を実行してください。すると、QRコードがターミナル上に出てきます。これを、あなたのスマホにインストールされたExpo Goで読み取ってください。ただし、PCとスマホを同じWi-fiに接続する必要があります。あとは、プログラムにエラーがなければ、アプリが動くはずです。
 
-## Gitについて
+## 貢献する
 
-クローンした自分のPC上のディレクトリを編集しても、編集内容はリモートリポジトリには反映されません。
-反映させるには、コミットをしてください。（詳しくは、gitについてググってください）
+1. WSL上にて、以下のコマンドを入力し、このリポジトリをクローンしてください。<https://kitsune.blog/git-summary>
+
+    ```Ubuntu
+    git clone https://github.com/Sysken-Yatsushiro/tabiji.git
+    ```
+
+2. `cd tabiji`でそこに移動し、`npm install`を実行してください。
+
+3. `npm start`でプログラムを実行してください。プログラムにバグがなければ、QRコードが出てきます。
+
+4. お手元のスマートフォンに、[Expo Go](https://expo.dev/expo-go)というアプリをインストールしてください。
+
+5. スマートフォンを、PCと同じネットワークに接続してください。つまり、同じWi-fiに接続するか、PCをスマホでテザリングしてください。
+
+6. Expo Goのカメラから、手順3で出てきたQRコードを読み取ってください。するとアプリが動くはずです。
