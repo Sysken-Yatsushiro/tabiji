@@ -13,7 +13,7 @@
 
 1. WSL上にて、以下のコマンドを入力し、このリポジトリをクローンしてください。<https://kitsune.blog/git-summary>
 
-    ```Ubuntu
+    ```Shell
     git clone https://github.com/Sysken-Yatsushiro/tabiji.git
     ```
 
