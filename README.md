@@ -52,4 +52,12 @@
 
 5. スマートフォンを、PCと同じネットワークに接続してください。つまり、同じWi-fiに接続するか、PCをスマホでテザリングしてください。
 
-6. Expo Goのカメラから、手順3で出てきたQRコードを読み取ってください。するとアプリが動くはずです。
+6. AndroidユーザーならExpo Goから、iPhoneユーザーならカメラから、手順3で出てきたQRコードを読み取ってください。するとアプリが動くはずです。
+
+### コードを書く
+
+[React](https://react.dev/learn)と、[React Native](https://reactnative.dev/docs/getting-started)、[Expo](https://docs.expo.dev/tutorial/introduction/)のチュートリアルを読んでおいてください。
+
+アニメーションについて理解したい方は、[Reanimated](https://www.youtube.com/playlist?list=PLjHsmVtnAr9TWoMAh-3QMiP7bPUqPFuFZ)についても学習してください。ただし、Expoとの兼ね合いで、Reanimatedのバージョンは2.xになっていることに注意してください。
+
+また、Tabijiは、一切のナビゲーションライブラリやUIコンポーネントライブラリを用いておらず、すべてをReanimatedで実装しています。理由としては、それらのライブラリで提供されるコンポーネントは皆カスタマイズ性に欠けており、我々が望むUIを作るのに不便だからです。
